@@ -1,12 +1,12 @@
 # Welcome to My Personal Page
 
-This Project it's about my personal Website, where you can discover a little piece of me...I'm Vicente Barberá, the next Full Stack Developer & Product Manager.
+This Project it's about my personal Website, where you can discover a little piece of me...I'm Vicente Barberá, Full Stack Developer & Product Manager.
 
-Rhere are 3 sections available:
+There are 3 sections available:
 
-About ME
-Contact
-Portfolio
+- About ME
+- Contact
+- Portfolio
 
 Has been developed from a minimalist & responsive vision, partially keeping in mind UX design factors.
 
@@ -15,7 +15,7 @@ Has been developed from a minimalist & responsive vision, partially keeping in m
 1. To deploy this project you must clone the repository through the following link:
 
 ```
-https://github.com/Vincecoorp21/React-News-App-2.0
+https://github.com/Vincecoorp21/React-Prof-Portolio-VB
 ```
 
 2. Install all npm packages.
@@ -30,6 +30,10 @@ npm i
 npm start
 
 ```
+
+## Or visit online 
+
+[My Portfolio](https://vincebc.netlify.app/)
 
 ## Preview
 
