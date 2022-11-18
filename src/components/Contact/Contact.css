@@ -1,0 +1,37 @@
+#contact {
+  background-color: #d4e3d9eb;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+#contact h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+#contact nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 2rem;
+}
+#contact nav a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.title-h2 {
+  font-family: var(--ff-accent);
+  margin-bottom: 2em;
+  letter-spacing: 0.7rem;
+  font-size: 1.8rem;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  #contact nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}

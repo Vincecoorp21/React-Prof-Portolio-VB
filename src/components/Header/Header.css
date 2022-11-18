@@ -1,0 +1,40 @@
+.header-app {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem;
+  height: 15vh;
+}
+
+.header-app ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  gap: 3rem;
+}
+
+.header-link {
+  padding: 4px 15px;
+  background-color: #099268;
+  color: white;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .header-app {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .header-app ul {
+    gap: 1rem;
+  }
+  .header-app img {
+    margin-top: 3rem;
+  }
+  .header-link {
+    font-size: 0.8em;
+    font-weight: bolder;
+  }
+}

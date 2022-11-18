@@ -1,38 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --clr-primary-200: #f3eed9;
+  --clr-primary-400: #824936;
+  --clr-neutral-900: #222c2a;
+  --clr-neutral-100: #fff;
+  --ff-primary: 'Monserrat', 'Roboto', sans-serif;
+  --ff-accent: 'Playfair Display', serif;
+  --clr-primario-vic: #099268;
+  --clr-primario-hover-vic: #12b886;
+}
+
 .App {
-  text-align: center;
+  max-width: 850px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/** CARD CONTANER */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .container1 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 1rem;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  padding: 2rem;
+} */
+/* 
+.project-list {
+  display: flex;
+} */
 
-.App-link {
-  color: #61dafb;
-}
+/*************SECTION PROJECTS***************/
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 600px) {
+  .projects {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+  .table-bio {
+    flex-direction: column;
+  }
+  .table-bio img {
+    width: 50%;
   }
 }

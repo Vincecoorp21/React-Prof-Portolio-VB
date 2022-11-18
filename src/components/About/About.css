@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600&family=Roboto:wght@300;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Playfair+Display:ital,wght@1,400;1,500;1,600&display=swap');
+
+:root {
+  --clr-primary-200: #f3eed9;
+  --clr-primary-400: #824936;
+  --clr-neutral-900: #222c2a;
+  --clr-neutral-100: #fff;
+  --ff-primary: 'Monserrat', 'Roboto', sans-serif;
+  --ff-accent: 'Playfair Display', serif;
+  --clr-primario-vic: #099268;
+  --clr-primario-hover-vic: #12b886;
+}
+
+/***********SECTION BIO***************/
+/******BIO******************/
+
+#bio {
+  background-size: cover;
+}
+.table-title {
+  font-family: var(--ff-accent);
+  font-size: 2rem;
+  letter-spacing: 1.6rem;
+  margin-bottom: 3rem;
+}
+
+.table-title::first-letter {
+  color: var(--clr-primario-vic);
+  font-size: 3.5rem;
+  text-decoration: underline;
+}
+
+.table-bio {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  /* height: 100vh; */
+
+  /* padding-top: 90px; */
+}
+.table-bio div {
+  padding: 40px;
+}
+.table-bio img {
+  border-radius: 50%;
+  width: 90%;
+  height: auto;
+  box-shadow: 4px 6px 13px 7px #65a47c;
+  transform: rotate(7deg);
+}
+.text {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+.pictureBio {
+  width: 300px;
+  height: 300px;
+}
+.button-contact {
+  padding: 10px;
+  border-radius: 15px;
+  margin: 20px;
+  background: #099268;
+  color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 2em;
+}
+.button-contact:hover {
+  background-color: #12b886;
+  transition: padding 0.6s ease;
+  padding: 1.4rem;
+}
+
+.main-title {
+  letter-spacing: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.main-title::first-letter {
+  font-size: 3.9rem;
+}
+.main-title-cap {
+  margin-left: 2rem;
+}
+.main-title-cap {
+  color: #099268;
+  font-size: 3rem;
+}
+.project-title {
+  margin-top: 1.5em;
+}
+.project-top {
+  margin-bottom: 1em;
+}
+.product-title {
+  margin-bottom: 20px;
+}
+.text-sep {
+  line-height: 2.5rem;
+}
+.name-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+@media (max-width: 600px) {
+  .table-bio img {
+    width: 50%;
+  }
+}
